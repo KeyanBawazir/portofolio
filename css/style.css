@@ -41,7 +41,7 @@ background-color:#fff;
     height: 58px;
     text-align:center;
     float:left;
-    background-color: red;
+    
 }
 .nav-links li{
     height: 100%;
@@ -91,7 +91,7 @@ background-color:#fff;
     width:300px;
     height: 35px;
     position: relative;
-    background-color: red;
+   
 }
 .social-links .links{
     position: absolute;
@@ -109,6 +109,31 @@ background-color:#fff;
     border-radius:50%;
     background-color: #fff;
     
+}
+.portofolio-content{
+    width:70%;
+    background-color: aqua;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.portofolio-content-contact{
+    width:100%;
+    background-color: teal;
+}
+.create-account{
+    float:left;
+    width:40%;
+    background-color: yellow;
+}
+.portofolio-content-details{
+    float: left;
+    width:60%;
+    background-color: thistle;
+}
+.title{
+    text-align: center;
 }
 /*Footer Section*/
 
