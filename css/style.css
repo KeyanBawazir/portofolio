@@ -5,9 +5,34 @@
 
 */
 /*commn Style*/
-
+.captalize{
+    text-transform: capitalize;
+}
+.btn{
+    width:140px;
+    min-width: 150px;
+    margin-top:35px;
+    background-color: transparent;
+    border:1px solid #fff;
+   
+}
 /*General Style*/
-
+input,button{
+    border-radius: 5px;
+    padding: 10px;
+}
+input{
+    margin-top:10px;
+}
+.btn,
+input[type="submit"]{
+    color:#fff; 
+}
+.frm-account >input[type="submit"],
+.frm-account >input[type="radio"],
+.frm-account >label{
+    margin-top:10px;
+}
 *{
     padding: 0;
     margin: 0;
@@ -16,7 +41,11 @@
 .clear{
     clear: both;
 }
-
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color:#fff;
+}
 body{
     font-family: 'Varela Round', sans-serif;
 }
@@ -83,8 +112,9 @@ background-color:#fff;
 /*Portfolio Section*/
 .portofolio{
     height: 100vh;
-    background-image: url('../images/background/background1.webp');
+    background-image: url('../images/background/Web-Development.jpg');
     background-size: cover;
+    
 }
 /*social-links*/
 .social-links{
@@ -111,29 +141,107 @@ background-color:#fff;
     
 }
 .portofolio-content{
-    width:70%;
-    background-color: aqua;
+    color: rgba(250, 250, 250, 0.7);
+    width:75%;
+    /*background-color: aqua;*/
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
+  
+    
+   
 }
 .portofolio-content-contact{
     width:100%;
-    background-color: teal;
+    /*background-color: teal;*/
+    padding: 10px;
+   
 }
 .create-account{
+    position:relative;
     float:left;
-    width:40%;
-    background-color: yellow;
+    width:50%;
+    /*background-color: yellow;*/
+    padding: 10px;
+    border-right: 1px solid #fff;
+    
+  
 }
+.new-account{
+    font-size: 15px;
+    
+}
+.create-account hr{
+    width:150px;
+    
+}
+.frm-account{
+    margin-top:5px;
+    padding: 10px;
+}
+.frm-account >input[name="last-name"]{
+    margin-left:5px;
+}
+.frm-account >input[type="text"],
+.frm-account >input[type="password"]{
+    height: 35px;
+    width:150px;
+}
+.frm-account >input[name="email-phone"],
+.frm-account >input[type="password"]{
+    width:100%;
+}
+.frm-account >input[type="radio"]{
+   background-color:black;
+    
+}
+.frm-account >input[type="submit"]{
+   width:100px;
+   height: 30px; 
+   line-height: .5;
+   font-size: 15px;
+   background-color: rgb(116, 228, 88);
+   position: absolute;
+   top:180px;
+   right: 20px;
+  
+}
+
 .portofolio-content-details{
     float: left;
-    width:60%;
-    background-color: thistle;
+    width:50%;
+    line-height: 1.6;
+    
+    
+    /*background-color: thistle;*/
+    padding: 30px;
+   
+}
+.portofolio-content-details>h2{
+    font-size: 21px;
+}
+.portofolio-content-details span{
+    color:rgb(83, 137, 238)
+}
+.read-more{
+    margin-left:7px;
+        
+    }
+
+.get-start{
+    margin-left:10px;
 }
 .title{
     text-align: center;
+    margin-top:35px;
+}
+.title h2{
+    font-size: 35px;
+    color: #fff;
+}
+.title p{
+    font-size: 13px;
 }
 /*Footer Section*/
 
