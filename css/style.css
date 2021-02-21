@@ -28,6 +28,11 @@ input{
 input[type="submit"]{
     color:#fff; 
 }
+
+.ltr{
+    float:left;
+    width:20%
+}
 .frm-account >input[type="submit"],
 .frm-account >input[type="radio"],
 .frm-account >label{
@@ -41,11 +46,7 @@ input[type="submit"]{
 .clear{
     clear: both;
 }
-.container{
-    width: 90%;
-    margin: 0 auto;
-    background-color:#fff;
-}
+
 body{
     font-family: 'Varela Round', sans-serif;
 }
@@ -156,8 +157,7 @@ background-color:#fff;
     width:100%;
     /*background-color: teal;*/
     padding: 10px;
-   
-}
+ }
 .create-account{
     position:relative;
     float:left;
@@ -165,8 +165,6 @@ background-color:#fff;
     /*background-color: yellow;*/
     padding: 10px;
     border-right: 1px solid #fff;
-    
-  
 }
 .new-account{
     font-size: 15px;
@@ -174,7 +172,6 @@ background-color:#fff;
 }
 .create-account hr{
     width:150px;
-    
 }
 .frm-account{
     margin-top:5px;
@@ -207,16 +204,12 @@ background-color:#fff;
    right: 20px;
   
 }
-
 .portofolio-content-details{
     float: left;
     width:50%;
     line-height: 1.6;
-    
-    
     /*background-color: thistle;*/
     padding: 30px;
-   
 }
 .portofolio-content-details>h2{
     font-size: 21px;
